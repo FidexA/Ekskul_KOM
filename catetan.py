@@ -75,3 +75,8 @@ for namaPanggilan in namaLengkap:
     # i += --> i = i + 1
     i += 1
     print(str(i) +" == " + namaPanggilan)
+
+loop = [1,2,3,4,5] # array
+for i in loop:
+    star = "*" * i # memanfaatkan elemen yg ada dalam array
+    print(star)
